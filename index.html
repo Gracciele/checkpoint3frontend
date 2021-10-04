@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>CP 3 FE</title>
+</head>
+
+<body class='banner'>
+
+    <header>
+        
+        <div class="px-3 py-2 bg-transparent text-white">
+          <div class="container">
+
+            <img src="./img/copy_179612159.png" alt="logo" class='logo'>
+
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+              <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+                <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+              </a>
+    
+              <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small" >
+                <li>
+                  <a href="#" class="nav-link text-secondary">
+                    <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#home"></use></svg>
+                    Home
+                  </a>
+                </li>
+                <li>
+                  <a href="#Obras" class="nav-link text-white">
+                    <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#speedometer2"></use></svg>
+                    Obras
+                  </a>
+                </li>
+                <li>
+                  <a href="#Pedidos" class="nav-link text-white">
+                    <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#table"></use></svg>
+                    Pedidos
+                  </a>
+                </li>
+                <li>
+                  <a href="#Avaliacoes" class="nav-link text-white">
+                    <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#grid"></use></svg>
+                    Avaliações
+                  </a>
+                </li>
+                <li>
+                  <a href="#Doacao" class="nav-link text-white">
+                    <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#people-circle"></use></svg>
+                    Doação
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class='banner2'>
+            <img src="./img/banner2.jpg" alt="Banner Prevenção ao Câncer de Mama">
+            <h3>Outubro Rosa, mês de Prevenção ao Câncer de Mama. Cuide-se, conscientize-se e ajuda à próxima a fazer o mesmo! Compre uma arte e ajude nesta causa.</h3>
+            <button class='botaoinicial'>Ajude!</button>
+          </div>
+      </header>
+
+     <main>
+         <section>
+            <h1 id="Obras">Obras</h1>
+            <div class="card-grid">
+            <div class="cardimg">
+                <img src="./img/img1.png" alt="image1">
+                <a><button type='submit'>Compre</button></a>
+
+                <img src="./img/img2.png" alt="image2">
+                <a><button type='submit'>Compre</button></a>
+
+                <img src="./img/img3.png" alt="image3">
+                <a><button type='submit'>Compre</button></a>
+
+                <img src="./img/img4.png" alt="image4">
+                <a><button>Compre</button></a>
+
+                <img src="./img/img5.jpg" alt="image5">
+                <a><button>Compre</button></a>
+
+                <img src="./img/img6.jpg" alt="image6">
+                <a><button>Compre</button></a>
+            </div>
+            </div>
+        </section>
+
+        <section class='opacidade'>
+            <h2 id="Pedidos">Pedidos</h2>
+            <div>
+                <fieldset class='fieldsetFundo'>
+                    <legend>Faça Seu Pedido</legend>
+                    <form action="#" method="POST">
+        
+                        <label for="nome">Nome:</label>
+                        <input placeholder='Nome completo' type="text" name='nome' id="nome" required="required" maxlength="100">
+        
+                        <label for="email">E-mail:</label>
+                        <input placeholder='Email' type="email" name='email' id="email" required="required">
+                    
+                    
+                        <label for="Telefone">Telefone:</label>
+                        <input placeholder='Seu telefone com DDD'type="number" required="required" maxlength="15" name="phone">
+        
+           
+                    <legend>Escolha Sua Obra</legend>
+                        <div class="opcionais"></div>
+                            <input type='radio' name='obra1' id='obra1'>
+                            <label for='obra1'>Obra 1 -  Spilled Glitter</label>
+                
+                            <input type='radio' name='obra2' id='obra2'>
+                            <label for='obra2'>Obra 2 -  Spread Glitter</label>
+                
+                            <input type='radio' name='obra3' id='obra3'>
+                            <label for='obra3'>Obra 3 -  Color Splashed</label>
+
+                            <input type='radio' name='obra4' id='obra4'>
+                            <label for='obra4'>Obra 4 -  Rounded Glitter</label>
+
+                            <input type='radio' name='obra5' id='obra5'>
+                            <label for='obra5'>Obra 5 -  Triple Check</label>
+
+                            <input type='radio' name='obra6' id='obra6'>
+                            <label for='obra6'>Obra 6 -  Prevent Breast Cancer</label>
+
+                            <a><button class='botaodiferente'>Encomendar Obra</button></a>
+                    </fieldset>
+
+                    
+            </fieldset>
+        </div>
+        </section>
+
+        <section class='section2'>
+            <h2 id="Avaliacoes">Avaliações</h2>
+
+            <p>A Obra é linda, ficou maravilhosa na minha parede e sempre me faz lembrar o quão importante é cuidar da minha saúde! - Mariana Melo. &#128512</p>
+
+            <p>Venci o câncer e comprei a coleção das Obras para me lembrar que eu venci! - Joana Pascoal. &#127802</p>
+
+            <p>Perdi minha mãe para o câncer de mama, antes de partir ela me presentiou com uma das obras para me lembrar que a vida continua como um círculo brilhante e para que eu fosse símbolo de ajuda para outras mulheres - Miranda Morgana. &#128148</p>
+
+            <p>Estou na luta e ganhei de uma amiga uma das obras como símbolo de perseverança e luta! Eu vou vencer - Luana Martins. &#128074</p>
+
+
+        </section>
+
+        <section>
+            <h2 id="Doacao">Doação</h2>
+        </section>
+        
+
+    </section>
+     </main>
+    
+
+
+    
+</body>
+</html>
